@@ -1,0 +1,126 @@
+.Card > p{
+    font: Nunito;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 8.41px;    
+
+}
+.main{
+    display: flex;
+    flex-flow: column;
+    margin-left: 110px;
+    object-fit: cover;
+}
+.Card {
+    margin-bottom: 30px;
+    background: rgba(35, 40, 75, 0.75);
+    border: 1px solid rgba(114, 140, 223, 1);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    width: 1046px;
+
+}
+
+.Card > hr{
+    position: center;
+    width: 970px;
+    top: 1px;
+    color : #C3C5CB 75%;
+    border: 0.5px solid rgba(195, 197, 203, 0.75);
+    
+}
+.Card4 > hr{
+    width: 542px;
+    color : #C3C5CB 75%;
+    border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+.Card5 > hr{
+    width: 970px;
+    color : #C3C5CB 75%;
+    border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.Card > table{
+    text-align: center;
+    
+}
+.Card2{
+    width: 640px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.Card3{
+    width:640px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border-spacing: 3px;
+}
+.insane{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22px;
+    
+}
+
+.Card4{
+    object-fit: cover;
+    width: 640px;
+    height: 206px;
+    margin-bottom:20px;
+    
+    background: rgba(35, 40, 75, 0.75);
+    border: 1px solid rgba(114, 140, 223, 1);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+}
+.Card5{
+    object-fit: cover;
+    width: 1000px;
+    height: 206px;
+    margin-bottom:20px;
+    
+    background: rgba(35, 40, 75, 0.75);
+    border: 1px solid rgba(35, 40, 75, 0.75) ;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+}
+
+.latestNews{
+    width:382px;
+    height:336px;
+    background: rgba(35, 40, 75, 0.75);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(114, 140, 223, 1);
+}
+cardIcon{
+    width : 20px;
+    height: 20px;
+    aspect-ratio: auto 20/20;
+}
+
+p{
+    text-align: center;
+}
+
+.dash-container{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Card6{
+    width: 1054px;
+    height:200px;
+    background-color:rgba(35, 40, 75, 0.75);
+    margin-top:30px;
+    border-radius: 10px;
+    border : 1px solid rgba(114, 140, 223, 1);
+    display: flex;
+    flex-direction: column;
+}
